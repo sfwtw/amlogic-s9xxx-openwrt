@@ -49,4 +49,4 @@ function git_sparse_clone() {
   cd .. && rm -rf $repodir
 }
 
-git_sparse_clone main https://github.com/Siriling/5G-Modem-Support luci-app-modem quectel_MHI quectel_cm_5G
+git_sparse_clone main https://github.com/Siriling/5G-Modem-Support luci-app-modem quectel_MHI quectel_cm_5G sms-tool luci-app-sms-tool
