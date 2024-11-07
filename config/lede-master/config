@@ -2,6 +2,17 @@
 # Automatically generated file; DO NOT EDIT.
 # OpenWrt Configuration
 #
+
+CONFIG_PACKAGE_sms-tool=y
+CONFIG_PACKAGE_luci-app-sms-tool=y
+
+CONFIG_PACKAGE_pcie_mhi=n
+
+CONFIG_PACKAGE_quectel_MHI=y
+CONFIG_PACKAGE_quectel_cm_5G=y
+CONFIG_PACKAGE_luci-app-modem=y
+CONFIG_PACKAGE_luci-i18n-modem-zh-cn=y
+
 CONFIG_MODULES=y
 CONFIG_HAVE_DOT_CONFIG=y
 CONFIG_HOST_OS_LINUX=y
